@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+}
+#clockContainer{
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	width: 40vw;
+	background: url(clock.png) no-repeat;
+	background-size: 100%;
+    border: 15px solid #f3c6f2;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: #efa6b6;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: #efa6cc;
+    position: absolute;
+}
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+.hour-3{
+    top: 235px;
+    right: 10px;
+}
+.hour-4{
+    top: 345px;
+    right: 45px;
+}
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+.hour-6{
+    bottom: 10px;
+    right: 240px;
+}
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+.hour-12{
+    top: 10px;
+    left: 225px;
+}
+#hour,#minute,#second{
+	position: absolute;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+#hour{
+	width: 1.8%;
+	height: 24%;
+	top: 25%;
+	left: 48%;
+    background-color: #8d90e2;
+}
+#minute{
+	width: 1.6%;
+	height: 29%;
+	top: 20%;
+	left: 48%;
+    background-color: #bd98e0;
+}
+#second{
+	width: 1%;
+	height: 39%;
+	top: 10%;
+	left: 48.50%;
+    background-color: #7554ae;
+}
